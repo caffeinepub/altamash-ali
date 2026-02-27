@@ -1,0 +1,25 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-website-name-to-crown-followers-in-the-browser-tab-title-index-html-title-tag-and-in-all-places-it-currently-appears-on-the-page-including-the-header-logo-brand-text-and-footer-brand-name",
+      "featureTitle": "Update the website name to 'Crown Followers' in the browser tab title (index.html <title> tag) and in all places it currently appears on the page, including the Header logo/brand text and Footer brand name.",
+      "files": [
+        "frontend/index.html",
+        "frontend/src/components/Footer.tsx",
+        "frontend/src/components/Header.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "frontend/src/index.css": "Global styles with dark gold theme using OKLCH color tokens, custom Google Fonts (Rajdhani for headings, Inter for body), and utility classes for gold gradients, card glows, and hero overlays.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom gold color tokens, surface colors, WhatsApp green, Rajdhani/Inter font families, gold box shadows, and float/pulse-gold animations.",
+  "frontend/src/data/pricingData.ts": "Pricing data file with 6 service categories — Instagram Views (Standard, Basic, and Premium tiers), Instagram Followers, Instagram Likes, YouTube Subscribers, YouTube Shorts Views, and YouTube Likes. The Standard tier's 500 Views package price has been updated from ₹3 to ₹5.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration — usePlaceOrder mutation and useListOrders query wrapping the backend actor calls.",
+  "frontend/src/hooks/useOrderForm.ts": "Custom hook managing order form state including service/package selection, URL input, price calculation, WhatsApp URL generation, and submission tracking.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with \"Crown Followers\" brand name and Crown icon, smooth-scroll nav links, mobile hamburger menu, and WhatsApp CTA button with gold dark theme.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with background image, floating stat cards, brand logo, tagline, CTA buttons, and trust badges.",
+  "frontend/src/components/ServicesSection.tsx": "Services and pricing section with platform filter tabs, service cards for all 6 categories, tabbed tiers for YouTube Views, and Order Now buttons that trigger order form.",
+  "frontend/src/components/OrderForm.tsx": "Order form with service/package dropdowns, profile URL input, price display, backend order placement mutation, and WhatsApp redirect with success confirmation screen.",
+  "frontend/src/components/PaymentSection.tsx": "Payment section displaying UPI QR code image, copy-to-clipboard UPI ID, account holder info, step-by-step payment instructions, and accepted UPI apps.",
+  "frontend/src/components/WhatsAppButton.tsx": "Fixed floating WhatsApp chat button at bottom-right with WhatsApp green color, icon, and pre-filled message link.",
+  "frontend/src/components/Footer.tsx": "Footer with \"Crown Followers\" brand info, services list, contact details (WhatsApp + UPI ID), copyright, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Main app component composing all sections — Header, Hero, ServicesSection, OrderForm, PaymentSection, Footer, and floating WhatsAppButton.",
+  "frontend/index.html": "HTML entry point with browser tab title updated to \"Crown Followers\"."
+}

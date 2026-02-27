@@ -1,0 +1,42 @@
+{
+  "kind": "build_request",
+  "title": "Change website name to Crown Followers",
+  "projectName": "Crown Followers",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update the website name to 'Crown Followers' in the browser tab title (index.html <title> tag) and in all places it currently appears on the page, including the Header logo/brand text and Footer brand name.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-recent"
+        ],
+        "quotes": [
+          "I have change me website name",
+          "Crown followers",
+          "No only change tha name ok"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The browser tab displays 'Crown Followers' as the page title",
+        "The Header component logo/brand text reads 'Crown Followers'",
+        "The Footer component brand name reads 'Crown Followers'",
+        "No other content, styling, or functionality is changed"
+      ]
+    }
+  ],
+  "constraints": [
+    "Only change the name text — do not alter colors, layout, theme, or any other content"
+  ],
+  "nonGoals": [
+    "Changing website theme or branding colors",
+    "Adding a new logo or icon",
+    "Modifying any pricing data or services",
+    "Any backend changes"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

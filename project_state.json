@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A social media followers website called 'Crown Followers' with a pricing model of ₹5/500 views. The project has been deployed multiple times (Version 4) and the user has requested a name change to 'Crown Followers'.",
+  "architectural_notes": [
+    "Pricing model: ₹5 per 500 views",
+    "Project is a social media followers/views service platform"
+  ],
+  "known_issues": [
+    "Draft keeps expiring before user can review; users get confused between draft and production versions"
+  ],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-the-website-name-to-crown-followers-in-the-browser-tab-title-index-html-title-tag-and-in-all-places-it-currently-appears-on-the-page-including-the-header-logo-brand-text-and-footer-brand-name",
+      "title": "Update the website name to 'Crown Followers' in the browser tab title (index.html <title> tag) and in all places it currently appears on the page, including the Header logo/brand text and Footer brand name.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Change website name to 'Crown Followers' in browser title and all page appearances",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Crown Followers",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
