@@ -31,7 +31,6 @@ export const pricingData: ServiceCategory[] = [
       {
         name: "Standard",
         packages: [
-          { quantity: "100 Views", price: 3 },
           { quantity: "500 Views", price: 5 },
           { quantity: "10,00,000 Views", price: 517 },
           { quantity: "20,00,000 Views", price: 741 },
